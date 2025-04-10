@@ -44,7 +44,7 @@ class ApiBloc extends Bloc<ApiEvent, ApiState> {
         headers: {
           'Content-Type': 'application/json',
           'Authorization':
-              'Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJkYW52YW50cm95QGdtYWlsLmNvbSIsImlhdCI6MTc0MzM0MDYxNiwiZXhwIjoxNzUxMTE2NjE2fQ.nPB7HfacejGs6hUNOXtQhS7yNBS19sz0VCbW8W1s9u4',
+              '',
         },
         body: json.encode(event.data),
       );
